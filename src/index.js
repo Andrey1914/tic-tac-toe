@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-// import ReactDOM from 'react-dom/client';
-// import { App } from 'components/App';
+
 import './index.css';
 
 function Square(props) {
@@ -137,10 +136,5 @@ function calculateWinner(squares) {
   return null;
 }
 
-// ReactDOM.createRoot(document.getElementById('root')).render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>
-// );
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<Game />);
