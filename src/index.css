@@ -1,4 +1,5 @@
-@import-normalize; /* bring in normalize.css styles */
+@import-normalize;
+/* bring in normalize.css styles */
 
 body {
   margin: 0;
@@ -13,11 +14,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-/* body {
-  font: 14px "Century Gothic", Futura, sans-serif;
-  margin: 20px;
-} */
 
 ol,
 ul {
@@ -65,10 +61,6 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
-  /* @media screen and (min-width: 480px) {
-    width: 450px;
-  } */
 }
 
 .game-info__title {
